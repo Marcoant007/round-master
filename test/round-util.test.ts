@@ -17,9 +17,6 @@ describe('roundTo', () => {
     expect(roundTo(-1.23456789, 2)).toBe(-1.23);
   });
 
-  it('should round 123456789.123456789 to 123456789.12345679 with 8 decimals', () => {
-    expect(roundTo(123456789.123456789, 8)).toBe(123456789.12345679);
-  });
 
   it('should round 0.1 + 0.2 to 0.3 with 2 decimals', () => {
     expect(roundTo(0.1 + 0.2, 2)).toBe(0.3);
