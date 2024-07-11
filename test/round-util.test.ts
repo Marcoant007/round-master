@@ -21,6 +21,10 @@ describe('roundTo', () => {
     expect(roundTo(0.1 + 0.2, 2)).toBe(0.3);
   });
 
+  it('should round 0.73 + 0.51 + 0.96 to 0.3 with 2 decimals', () => {
+    expect(roundTo(0.73 + 0.51 + 0.96, 2)).toBe(2.2);
+  });
+
   it('should throw TypeError when value is not a number', () => {
     expect(() => roundTo('not a number' as unknown as number, 2)).toThrow(TypeError);
   });
