@@ -1,6 +1,6 @@
 {
   "name": "round-master",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This project aims to correct the residual calculation problem",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

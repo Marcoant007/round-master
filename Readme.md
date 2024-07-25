@@ -7,13 +7,13 @@ A library to perform consistent rounding of numbers in JavaScript and TypeScript
 To install the library, use npm:
 
 ```sh
-npm install round-util
+npm install round-master
 ```
 
 ## Usage
 ```sh
 
-import { roundTo } from 'round-util';
+import { roundTo } from 'round-master';
 
 const value = 1.23456789;
 const roundedValue = roundTo(value, 2);
@@ -24,7 +24,7 @@ console.log(roundedValue); // 1.23
 ## Example 
 
 ```sh
-import { roundTo } from 'round-util';
+import { roundTo } from 'round-master';
 
 const values = [1.23456789, 0.1 + 0.2, -1.23456789, 123456789.123456789];
 const decimals = [2, 2, 2, 8];
