@@ -1,4 +1,4 @@
-# round-util
+# round-master
 
 A library to perform consistent rounding of numbers in JavaScript and TypeScript, ensuring precision for financial calculations and other use cases where accurate decimal rounding is essential.
 
